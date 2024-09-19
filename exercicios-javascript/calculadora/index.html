@@ -1,0 +1,54 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+    
+    <style>
+
+        body{
+            text-align: center;
+            height: 100%;
+
+        }
+
+        #result{
+            padding: 15px;
+            margin-top: 20px;
+            border-radius: 5px;
+            font-size: 18px;
+            font-weight: bold;
+            border: 1px solid;
+            
+        }
+
+        
+        
+    </style>
+
+</head>
+<body>
+    
+    <h1>Calculadora</h1>
+    <input type="number" id="number1">
+    <select type="number" id="opcao">
+        
+        <option value="som">+</option>
+        <option value="sub">-</option>
+        <option value="div">/</option>
+        <option value="mult">*</option>
+    </select>
+    
+    <input type="number" id="number2"><br><br>
+
+    <button type="button" id="calc" >Calcular</button><br><br>
+
+    
+    <span id="result"></span>
+    
+    
+    <script src="script.js"></script>
+</body>
+</html>
